@@ -2,7 +2,7 @@ let userAge = +prompt("Сколько тебе лет");
 // let userAge = '15';
 
 
-if (typeof userAge === 'number') {
+if (typeof userAge === 'number' && userAge >= 0) {
     if (userAge === 0 || userAge > 4 && userAge <= 20 ) {
         alert(`Тебе дружок ${userAge} лет`); 
     } else if (userAge > 20) {
